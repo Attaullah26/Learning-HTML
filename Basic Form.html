@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Form Tag</title>
+    </head>
+    <body>
+        <form action="" method="">
+            <fieldset width="60%">
+                <legend> <h3>Personal Details </h3></legend>
+            <label>Name</label> <input type="text" name="" placeholder="Babar Writes"> <br/><br/>
+            <label>Password</label> <input type="password" name="password"> <br/><br/>
+            <label>Gender</label> <input type="radio" name="gender" id="male"><label for="male">Male</label> <input type=radio name="gender" id="female"><label for="female">Female</label><br/><br/>
+            <label>Hobbies</label> <input type="checkbox" name=""> <label> Cricket</label> <input type="checkbox" name=""> <label> Reading Books</label> <input type="checkbox" name=""> <label> TV</label><br/><br/>
+            <label>Message</label> <textarea rows="5" cols="20"></textarea> <br/><br/>
+            <label>Upload file</label> <input type="file"> <br/><br/>
+            <label>Country</label>
+            <select>
+                <option>Pakistan</option>
+                <option>India</option>
+                <option>Nepal</option>
+                <option>Bangladesh</option>
+                <option selected="japan">Japan</option>
+                <option>Germany</option>
+                <option>Jorden</option>
+            </select><br/><br/>
+            <label>Country list</label>
+                <select>
+                    <optgroup label="Asia">
+                         <option>Pakistan</option>
+                         <option>India</option>
+                         <option>Nepal</option>
+                         <option>Bangladesh</option>
+                         <option>Japan</option>
+                         <option>Germany</option>
+                    </optgroup>
+                    <optgroup label="Africa">
+                         <option>Jorden</option>
+                         <option>Bangladesh</option>
+                         <option>Japan</option>
+                         <option>Germany</option>
+                         <option>Jorden</option>
+                        </optgroup>
+                </select> <br/><br/>
+                    <label>Country List Editable</label>
+                        <input list="countries">
+                        <datalist id="countries">
+                            <option value="Pakistan">
+                            <option value="Egypt">
+                            <option value="Afghanistan">
+                            <option value="America">
+                            <option value="Saudi Arabia">
+                        </datalist> <br/>
+            <input type="image" src="images/submit.png" width="8%"/>
+        </fieldset>
+        </form>
+    </body>
+</html>
